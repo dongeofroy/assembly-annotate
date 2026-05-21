@@ -1,0 +1,65 @@
+/home/dongeofroy/miniconda3/envs/nextflow/bin/quast.py contigs.fasta -o P7741 -t 4
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35 (linux_64)
+  Python version: 3.11.9
+  CPUs number: 8
+
+Started: 2026-05-16 19:55:29
+
+Logging to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/quast.log
+
+CWD: /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9
+Main parameters: 
+  MODE: default, threads: 4, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  contigs.fasta ==> contigs
+
+2026-05-16 19:55:30
+Running Basic statistics processor...
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 19113, L50 = 88, auN = 23506.5, Total length = 5464756, GC % = 65.46, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/basic_stats/GC_content_plot.pdf
+  Drawing contigs GC content plot...
+    saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/basic_stats/contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/basic_stats/coverage_histogram.pdf
+  Drawing contigs coverage histogram (bin size: 1x)...
+    saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/basic_stats/contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-05-16 19:55:33
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-05-16 19:55:33
+RESULTS:
+  Text versions of total report are saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/report.html
+  PDF version (tables and plots) is saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/report.pdf
+  Icarus (contig browser) is saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/icarus.html
+  Log is saved to /mnt/d/bioinfo_tools/nextflow/FASTQC/work/a5/1344981121ae58420fb4547d6fb0d9/P7741/quast.log
+
+Finished: 2026-05-16 19:55:34
+Elapsed time: 0:00:05.546367
+NOTICEs: 1; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
