@@ -22,7 +22,7 @@ sample1_R2.fastq.gz
 conda env create -f environment.yml
 conda activate nextflow
 
-4- Lancement du pipeline
+4- Lancement du pipeline:
 nextflow run script.nf
 
 5- Paramètres
@@ -37,7 +37,7 @@ Vous pouvez les modifier directement dans le fichier ou via CLI :
 Exemple:
 nextflow run script.nf --fastq "/path/to/data/*_{R1,R2}.fastq.gz"
 
-5- Gestion des environnements
+5- Gestion des environnements:
 Assure-toi d’avoir activé :
 conda config --add channels bioconda
 conda config --add channels conda-forge
